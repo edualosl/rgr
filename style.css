@@ -114,6 +114,7 @@ h2 {
     text-decoration: inherit;
     text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
     text-transform: capitalize;
+    margin-left: 10px;
 }
 .text {
     font-family: cursive;
@@ -178,6 +179,36 @@ h2 {
 
 .menu li a:hover:before {
     width: 100%;
+}
+
+.map {
+    height: 600px;
+    width: 100%;
+    text-align: center;
+}
+
+.kontakti {
+    border: 2px solid OldLace;
+}
+.gallery {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.gallery img {
+    width: calc(33.33% - 20px);
+    height: auto;
+    border: 3px solid DarkSlateGrey;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.caption {
+    text-align: center;
+    margin-top: 20px;
 }
 
 
