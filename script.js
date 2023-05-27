@@ -29,3 +29,27 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
+//jQuery код 
+$(document).ready(function() {
+    $("header").hover(
+        function() {
+            $(this).addClass("hovered");
+        },
+        function() {
+            $(this).removeClass("hovered");
+        }
+    );
+});
+
+$(document).ready(function() {
+    $(".open-modal").click(function() {
+        $("#myModal").css("display", "block");
+    });
+
+    $(".close").click(function() {
+        $("#myModal").css("display", "none");
+    });
+});
+
+
+
